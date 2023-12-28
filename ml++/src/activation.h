@@ -1,4 +1,7 @@
 #pragma once
+#include <numbers>
+#include <vector>
+#include <eigen3/Eigen/Eigen>
 
 class Activation
 {
@@ -12,7 +15,7 @@ class Activation
         float linear(float input);
         float sigmoid(float input);
         float tanh(float input);
-        float softmax(float input);
+        float softmax(float nodeValue, std::vector<float>& inputs);
     private:
 
 };

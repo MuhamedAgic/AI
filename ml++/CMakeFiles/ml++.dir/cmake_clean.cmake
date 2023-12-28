@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ml++.dir/src/nnTester.cpp.o.d"
   "CMakeFiles/ml++.dir/src/node.cpp.o"
   "CMakeFiles/ml++.dir/src/node.cpp.o.d"
+  "CMakeFiles/ml++.dir/src/node_edge.cpp.o"
+  "CMakeFiles/ml++.dir/src/node_edge.cpp.o.d"
   "ml++"
   "ml++.pdb"
 )

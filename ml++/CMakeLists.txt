@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 3.15)
+set(CMAKE_CXX_STANDARD 20)
 
 project(ml++)
 
@@ -11,6 +12,7 @@ set(HEADER_FILES
   src/layer.h
   src/activation.h
   src/node.h
+  src/node_edge.h
 )
 
 set(SOURCE_FILES
@@ -19,6 +21,7 @@ set(SOURCE_FILES
   src/activation.cpp
   src/node.cpp
   src/nnTester.cpp
+  src/node_edge.cpp
 )
 
 add_executable(ml++ ${HEADER_FILES} ${SOURCE_FILES})

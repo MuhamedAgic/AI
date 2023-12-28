@@ -249,6 +249,30 @@ src/node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ml++.dir/build.make CMakeFiles/ml++.dir/src/node.cpp.s
 .PHONY : src/node.cpp.s
 
+src/node_edge.o: src/node_edge.cpp.o
+.PHONY : src/node_edge.o
+
+# target to build an object file
+src/node_edge.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ml++.dir/build.make CMakeFiles/ml++.dir/src/node_edge.cpp.o
+.PHONY : src/node_edge.cpp.o
+
+src/node_edge.i: src/node_edge.cpp.i
+.PHONY : src/node_edge.i
+
+# target to preprocess a source file
+src/node_edge.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ml++.dir/build.make CMakeFiles/ml++.dir/src/node_edge.cpp.i
+.PHONY : src/node_edge.cpp.i
+
+src/node_edge.s: src/node_edge.cpp.s
+.PHONY : src/node_edge.s
+
+# target to generate assembly for a file
+src/node_edge.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ml++.dir/build.make CMakeFiles/ml++.dir/src/node_edge.cpp.s
+.PHONY : src/node_edge.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -273,6 +297,9 @@ help:
 	@echo "... src/node.o"
 	@echo "... src/node.i"
 	@echo "... src/node.s"
+	@echo "... src/node_edge.o"
+	@echo "... src/node_edge.i"
+	@echo "... src/node_edge.s"
 .PHONY : help
 
 
