@@ -1,3 +1,0 @@
-/home/ubuntu/projects/git/AI/ml++/CMakeFiles/ml++.dir
-/home/ubuntu/projects/git/AI/ml++/CMakeFiles/edit_cache.dir
-/home/ubuntu/projects/git/AI/ml++/CMakeFiles/rebuild_cache.dir
